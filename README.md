@@ -1,2 +1,2 @@
-# cubo-ASCII
-cubo renderizado em ASCII que gira
+# cube-ASCII
+Spinning cube rendered in ASCII
