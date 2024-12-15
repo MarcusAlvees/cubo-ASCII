@@ -22,7 +22,7 @@ int xp, yp;
 float incrementSpeed = 0.4;
 float x, y, z;
 
-// Matriz de Rotação
+// Matriz de RotaÃ§Ã£o
 float calcularX(int i, int j, int k) {
 	return j * sin(A) * sin(B) * cos(C) - k * cos(A) * sin(B) * cos(C) +
 		j * cos(A) * sin(C) + k * sin(A) * sin(C) + i * cos(B) * cos(C);
@@ -79,7 +79,7 @@ int main()
 		printf("\x1b[H");
 		//system("cls");
 		for (int k = 0; k < _width * _height; k++) {
-			putchar(k % width ? buffer[k] : 10);
+			putchar(k % _width ? buffer[k] : 10);
 		}		
 		A += 0.025;
 		B += 0.025;
